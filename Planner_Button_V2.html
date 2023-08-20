@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <style>
+    /* Your styles here */
+    <style>
     :root {
       --my-color:#ffdecc;
       --my-color-accent:#FFB38A;
@@ -239,11 +243,19 @@
   </style>
 
 </head>
-  
-<a href="https://www.notion.so/Dashboard-Planner-e07f09e53ce1431b8d8f8a0409226a35?pvs=4" target="_parent">
-  <button class="btn large my-color rounded threeD" type="button">
+  </style>
+</head>
+
+<body>
+  <button class="btn large my-color rounded threeD" type="button" onclick="navigate()">
     <i class="fa-regular fa-square-check fa-beat" style="color: #000000;"></i> Planner
   </button>
-</a>
+
+  <script>
+    function navigate() {
+      window.location.href = "https://www.notion.so/Dashboard-Planner-e07f09e53ce1431b8d8f8a0409226a35?pvs=4";
+    }
+  </script>
+</body>
 
 </html>
